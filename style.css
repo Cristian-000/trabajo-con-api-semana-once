@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+
+#contenedor-imagenes {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor-imagenes img {
+    max-height: 90%;
+    width: auto;
+}
+
+#buscarButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#buscarButton:hover {
+    background-color: #0056b3;
+}
