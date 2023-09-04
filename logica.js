@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
         // Esta API no necesita autorizacion como tokens o apikey
 
         const apiUrl = 'https://api.waifu.im/search';
-        // Parametros permitidos por la API
+        // Parametros permitidos por la API, tag
         const params = {
-            included_tags: 'maid',
+            included_tags: 'waifu',
             height: '>=2000'
         };
 
