@@ -6,7 +6,10 @@ body {
     height: 100vh;
     margin: 0;
 }
-
+select {
+    margin-bottom: 2px;
+    padding: 5px;
+}
 h1 {
     color: #0056b3;
 }

@@ -6,11 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
         from an archive of over 4000 images and multiple tags!*/
 
         // Esta API no necesita autorizacion como tokens o apikey
+        const selectedTag = document.getElementById("tagSelector").value;
 
         const apiUrl = 'https://api.waifu.im/search';
-        // Parametros permitidos por la API, tag
+        // Parametros permitidos por la API, acepta tags en la peticion
         const params = {
-            included_tags: 'waifu',
+            included_tags: selectedTag,
             height: '>=2000'
         };
 
